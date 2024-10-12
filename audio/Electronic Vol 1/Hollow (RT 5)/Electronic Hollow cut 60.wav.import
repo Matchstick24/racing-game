@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://drle7axm77q17"
+path="res://.godot/imported/Electronic Hollow cut 60.wav-7eebd0ac1477cd41282d4ddc85c6ce7c.sample"
+
+[deps]
+
+source_file="res://audio/Electronic Vol 1/Hollow (RT 5)/Electronic Hollow cut 60.wav"
+dest_files=["res://.godot/imported/Electronic Hollow cut 60.wav-7eebd0ac1477cd41282d4ddc85c6ce7c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

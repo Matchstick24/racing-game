@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cuux1qbdl0rua"
+path="res://.godot/imported/Electronic Working cut 30.wav-10f63f86a697262885a0950510a2c15a.sample"
+
+[deps]
+
+source_file="res://audio/Electronic Vol 1/Working (RT 4)/Electronic Working cut 30.wav"
+dest_files=["res://.godot/imported/Electronic Working cut 30.wav-10f63f86a697262885a0950510a2c15a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

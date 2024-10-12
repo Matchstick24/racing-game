@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dbjiv01mgl8kc"
+path="res://.godot/imported/Electronic Cool Intensity 1.wav-a91a1dec557c231610ccb57d45bffb69.sample"
+
+[deps]
+
+source_file="res://audio/Electronic Vol 1/Cool (RT 3.75)/Electronic Cool Intensity 1.wav"
+dest_files=["res://.godot/imported/Electronic Cool Intensity 1.wav-a91a1dec557c231610ccb57d45bffb69.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

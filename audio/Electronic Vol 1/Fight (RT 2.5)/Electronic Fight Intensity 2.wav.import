@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b1a60vwsll8vv"
+path="res://.godot/imported/Electronic Fight Intensity 2.wav-32180674d7dfba4a03248c7336884508.sample"
+
+[deps]
+
+source_file="res://audio/Electronic Vol 1/Fight (RT 2.5)/Electronic Fight Intensity 2.wav"
+dest_files=["res://.godot/imported/Electronic Fight Intensity 2.wav-32180674d7dfba4a03248c7336884508.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

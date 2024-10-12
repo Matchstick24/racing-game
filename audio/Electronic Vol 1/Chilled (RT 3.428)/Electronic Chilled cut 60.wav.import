@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bsckhb573an7k"
+path="res://.godot/imported/Electronic Chilled cut 60.wav-8903a2864fd12a2e89fc0ce0de0da3a6.sample"
+
+[deps]
+
+source_file="res://audio/Electronic Vol 1/Chilled (RT 3.428)/Electronic Chilled cut 60.wav"
+dest_files=["res://.godot/imported/Electronic Chilled cut 60.wav-8903a2864fd12a2e89fc0ce0de0da3a6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

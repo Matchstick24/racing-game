@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://03t3ybk2kqrg"
+path="res://.godot/imported/Electronic Chilled Intensity 2.wav-257759a94d13cf274fc0e41c04b9b43b.sample"
+
+[deps]
+
+source_file="res://audio/Electronic Vol 1/Chilled (RT 3.428)/Electronic Chilled Intensity 2.wav"
+dest_files=["res://.godot/imported/Electronic Chilled Intensity 2.wav-257759a94d13cf274fc0e41c04b9b43b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

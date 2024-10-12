@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://8te5ii058ygr"
+path="res://.godot/imported/Electronic Working main.wav-bef303bc3a2c5ce63ff2264aab206b61.sample"
+
+[deps]
+
+source_file="res://audio/Electronic Vol 1/Working (RT 4)/Electronic Working main.wav"
+dest_files=["res://.godot/imported/Electronic Working main.wav-bef303bc3a2c5ce63ff2264aab206b61.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

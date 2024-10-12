@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://0r20oq5rgesi"
+path="res://.godot/imported/Electronic Defeat Intensity 1.wav-170564e5d53a58dad91788d404f37b5b.sample"
+
+[deps]
+
+source_file="res://audio/Electronic Vol 1/Defeat (RT 3)/Electronic Defeat Intensity 1.wav"
+dest_files=["res://.godot/imported/Electronic Defeat Intensity 1.wav-170564e5d53a58dad91788d404f37b5b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

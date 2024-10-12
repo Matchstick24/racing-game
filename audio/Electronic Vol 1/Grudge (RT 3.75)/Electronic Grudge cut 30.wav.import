@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://de1cm6jiocuqo"
+path="res://.godot/imported/Electronic Grudge cut 30.wav-cc54d01b936ace8c95428d3fbd3d8fcf.sample"
+
+[deps]
+
+source_file="res://audio/Electronic Vol 1/Grudge (RT 3.75)/Electronic Grudge cut 30.wav"
+dest_files=["res://.godot/imported/Electronic Grudge cut 30.wav-cc54d01b936ace8c95428d3fbd3d8fcf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

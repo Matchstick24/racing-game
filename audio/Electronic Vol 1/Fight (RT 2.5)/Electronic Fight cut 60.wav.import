@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cdrh2sppc867q"
+path="res://.godot/imported/Electronic Fight cut 60.wav-508ad146b23cc21038879b06f33fdfd4.sample"
+
+[deps]
+
+source_file="res://audio/Electronic Vol 1/Fight (RT 2.5)/Electronic Fight cut 60.wav"
+dest_files=["res://.godot/imported/Electronic Fight cut 60.wav-508ad146b23cc21038879b06f33fdfd4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

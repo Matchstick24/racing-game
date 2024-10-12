@@ -1,0 +1,77 @@
+[gd_scene load_steps=4 format=3 uid="uid://d12xsyw1x1p0f"]
+
+[ext_resource type="Texture2D" uid="uid://b21ednco6klau" path="res://90 road.png" id="1_egsyq"]
+
+[sub_resource type="Curve3D" id="Curve3D_chgsa"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 10.0796, 0, 7.9415, -25.6409, 0, 5.15266, 25.6409, 0, -5.15266, 53.4524, 0, 10.9959, -32.0633, 0, 27.8005, 32.0633, 0, -27.8005, 231.229, 0, -26.0062, 26.0172, 0, 29.6057, -26.0172, 0, -29.6057, 230.566, 0, -174.046, 31.4001, 0, -29.6057, -31.4001, 0, 29.6057, 27.995, 11.9024, -223.506, 13.4571, 0, -22.4286, -13.4571, 0, 22.4286, -188.98, 10.9989, -247.144, 3.23254, 3.8147e-05, -59.9601, -3.23254, -3.8147e-05, 59.9601, -99.336, 5.76981, -158.64, 2.69147, 0, -44.8572, -2.69147, 0, 44.8572, -277.217, 0, -115.732, 4.14052, -4.28213, -35.895, -4.14052, 4.28213, 35.895, -217.331, -14.7831, -39.231, 0, 0, 0, 0, 0, 0, -297.186, -14.7831, 23.0214),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 10
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xpvew"]
+albedo_texture = ExtResource("1_egsyq")
+uv1_scale = Vector3(0.05, 7.45, 1)
+uv1_offset = Vector3(0, 0.11, 0)
+
+[node name="Path3D" type="Path3D"]
+curve = SubResource("Curve3D_chgsa")
+
+[node name="CSGPolygon3D" type="CSGPolygon3D" parent="."]
+use_collision = true
+polygon = PackedVector2Array(0, 0, 0, 0.1, 20, 0.1, 20, 0)
+mode = 2
+path_node = NodePath("..")
+path_interval_type = 0
+path_interval = 1.0
+path_simplify_angle = 0.0
+path_rotation = 2
+path_local = false
+path_continuous_u = true
+path_u_distance = 1.0
+path_joined = false
+material = SubResource("StandardMaterial3D_xpvew")
+
+[node name="CSGPolygon3D2" type="CSGPolygon3D" parent="."]
+use_collision = true
+polygon = PackedVector2Array(19.9, 0, 19.9, 1, 20, 1, 20, 0)
+mode = 2
+path_node = NodePath("..")
+path_interval_type = 0
+path_interval = 1.0
+path_simplify_angle = 0.0
+path_rotation = 2
+path_local = false
+path_continuous_u = true
+path_u_distance = 1.0
+path_joined = false
+smooth_faces = true
+
+[node name="CSGPolygon3D3" type="CSGPolygon3D" parent="."]
+use_collision = true
+polygon = PackedVector2Array(0, 0, 0, 1, 0.1, 1, 0.1, 0)
+mode = 2
+path_node = NodePath("..")
+path_interval_type = 0
+path_interval = 1.0
+path_simplify_angle = 0.0
+path_rotation = 2
+path_local = false
+path_continuous_u = true
+path_u_distance = 1.0
+path_joined = false
+smooth_faces = true
+
+[node name="CSGPolygon3D4" type="CSGPolygon3D" parent="."]
+snap = 1e-06
+polygon = PackedVector2Array(9.5, 0, 9.5, -500, 10.5, -500, 10.5, 0)
+mode = 2
+path_node = NodePath("..")
+path_interval_type = 0
+path_interval = 1.0
+path_simplify_angle = 1.0
+path_rotation = 2
+path_local = false
+path_continuous_u = true
+path_u_distance = 1.0
+path_joined = false
